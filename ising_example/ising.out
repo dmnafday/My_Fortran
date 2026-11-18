@@ -1,0 +1,955 @@
+ Reading Input from file ising_mc.inp.
+ The file should contain:
+ a) The dimension of the lattice (x,y)
+ b) Value of paramter J
+ c) decrement step in temperature i.e step value
+ d) Number of Monte Carlo steps mc_steps
+ e) Number of equilibration steps
+ 
+ 
+ The values read from the input files are
+ lattice dimenison (x,y) =           10            10
+ Value of J parameter =    1.000000    
+ decrement step in temp =   0.1000000    
+ Monte Carlo steps =       860000
+ Equilibration steps =       430000
+ 
+ No of temperature steps is:           36
+ 
+ Running program for temperature T =    4.000000    
+ 
+ 
+  Beta =   0.2500000    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   4.000000    
+     -1  -1   1  -1   1   1  -1  -1  -1  -1
+      1  -1   1  -1  -1   1   1   1   1   1
+      1   1   1  -1  -1   1  -1  -1   1   1
+      1   1   1  -1  -1   1  -1  -1  -1   1
+      1   1   1   1   1  -1   1   1   1   1
+      1   1   1   1   1   1   1   1  -1   1
+      1   1  -1   1  -1  -1  -1   1  -1   1
+     -1   1   1   1  -1  -1  -1   1   1  -1
+      1  -1   1   1  -1  -1  -1  -1  -1  -1
+     -1  -1   1   1   1   1  -1   1  -1  -1
+ 
+ Average Energy =  -0.5579652    
+ Average magnetization =   1.9938843E-03
+ 
+ Wrting data at temp T =   4.000000      to output files...
+ 
+ Running program for temperature T =    3.900000    
+ 
+ 
+  Beta =   0.2564102    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.900000    
+      1   1   1   1   1   1  -1  -1   1   1
+      1   1   1  -1  -1  -1   1   1   1   1
+      1  -1   1   1  -1   1   1   1   1   1
+     -1  -1   1   1  -1   1   1   1   1  -1
+     -1  -1  -1  -1  -1  -1   1   1   1   1
+     -1  -1   1   1  -1  -1   1   1   1  -1
+     -1   1   1   1   1   1   1   1   1  -1
+      1   1   1  -1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1  -1
+      1   1   1   1   1   1  -1  -1   1   1
+ 
+ Average Energy =  -0.5751081    
+ Average magnetization =   9.2655774E-03
+ 
+ Wrting data at temp T =   3.900000      to output files...
+ 
+ Running program for temperature T =    3.800000    
+ 
+ 
+  Beta =   0.2631579    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.800000    
+     -1  -1   1   1   1  -1  -1  -1   1  -1
+     -1  -1  -1   1   1  -1  -1  -1   1  -1
+     -1  -1  -1   1  -1  -1  -1  -1   1  -1
+     -1  -1  -1  -1   1  -1  -1  -1   1   1
+     -1  -1  -1  -1   1   1   1  -1  -1  -1
+      1   1   1  -1  -1   1   1   1  -1  -1
+     -1   1   1  -1  -1   1  -1  -1  -1   1
+      1  -1  -1  -1   1   1  -1  -1  -1  -1
+      1  -1  -1   1  -1  -1  -1   1   1  -1
+     -1  -1   1   1   1   1  -1  -1  -1   1
+ 
+ Average Energy =  -0.5919889    
+ Average magnetization =  -1.3874723E-02
+ 
+ Wrting data at temp T =   3.800000      to output files...
+ 
+ Running program for temperature T =    3.700000    
+ 
+ 
+  Beta =   0.2702703    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.700000    
+     -1  -1  -1  -1  -1  -1  -1   1  -1  -1
+     -1  -1   1  -1   1   1   1   1   1  -1
+      1   1   1   1   1   1   1   1   1   1
+      1   1  -1   1   1   1   1   1   1   1
+      1  -1   1   1   1   1  -1  -1   1   1
+     -1   1   1  -1  -1  -1   1  -1  -1  -1
+      1   1  -1  -1  -1   1   1  -1  -1  -1
+      1   1   1   1  -1   1   1  -1  -1   1
+      1   1   1   1   1   1   1   1  -1   1
+      1   1  -1  -1   1   1   1   1  -1   1
+ 
+ Average Energy =  -0.6185690    
+ Average magnetization =   1.0223291E-03
+ 
+ Wrting data at temp T =   3.700000      to output files...
+ 
+ Running program for temperature T =    3.600000    
+ 
+ 
+  Beta =   0.2777778    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.600000    
+      1   1   1   1  -1  -1   1  -1  -1  -1
+      1   1   1  -1   1  -1   1  -1  -1  -1
+      1   1   1   1   1   1   1  -1  -1   1
+      1   1   1   1   1  -1   1   1   1   1
+     -1  -1   1   1   1   1   1   1   1   1
+      1   1  -1   1  -1   1  -1   1   1   1
+      1   1  -1   1   1   1   1  -1   1   1
+      1   1   1   1   1  -1  -1  -1  -1   1
+     -1   1   1   1  -1  -1  -1  -1  -1   1
+      1  -1   1   1  -1  -1  -1  -1   1   1
+ 
+ Average Energy =  -0.6330555    
+ Average magnetization =  -1.2225337E-02
+ 
+ Wrting data at temp T =   3.600000      to output files...
+ 
+ Running program for temperature T =    3.500000    
+ 
+ 
+  Beta =   0.2857143    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.500000    
+      1   1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      1   1  -1  -1  -1  -1  -1  -1   1   1
+      1  -1   1  -1  -1  -1  -1  -1  -1   1
+      1   1  -1  -1  -1  -1  -1  -1  -1   1
+     -1  -1  -1  -1  -1   1   1   1   1  -1
+      1  -1  -1  -1   1   1   1   1   1   1
+      1   1  -1   1  -1  -1  -1   1   1   1
+      1   1   1   1  -1  -1  -1   1   1   1
+      1   1   1   1  -1  -1  -1  -1   1   1
+ 
+ Average Energy =  -0.6619961    
+ Average magnetization =  -2.0228418E-02
+ 
+ Wrting data at temp T =   3.500000      to output files...
+ 
+ Running program for temperature T =    3.400000    
+ 
+ 
+  Beta =   0.2941176    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.400000    
+     -1   1   1   1  -1  -1   1  -1  -1  -1
+     -1   1   1  -1   1  -1   1   1  -1   1
+      1   1   1   1   1   1  -1  -1  -1  -1
+      1   1   1   1   1  -1   1  -1   1  -1
+     -1  -1  -1   1   1  -1   1   1   1  -1
+     -1  -1   1   1   1  -1   1   1   1   1
+     -1   1   1   1  -1   1   1   1  -1  -1
+     -1  -1  -1  -1  -1   1   1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1   1   1   1  -1
+     -1   1   1   1  -1  -1  -1  -1   1  -1
+ 
+ Average Energy =  -0.6838116    
+ Average magnetization =  -2.9575985E-03
+ 
+ Wrting data at temp T =   3.400000      to output files...
+ 
+ Running program for temperature T =    3.300000    
+ 
+ 
+  Beta =   0.3030303    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.300000    
+     -1  -1  -1   1   1  -1  -1   1  -1  -1
+     -1   1  -1   1  -1  -1  -1  -1  -1  -1
+      1   1   1   1  -1  -1  -1  -1   1   1
+      1  -1  -1   1  -1  -1  -1  -1  -1   1
+      1   1   1   1   1  -1   1   1  -1   1
+     -1  -1  -1  -1  -1  -1   1   1   1   1
+      1  -1  -1  -1  -1   1   1   1   1   1
+     -1  -1  -1  -1  -1  -1   1   1   1   1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1   1   1
+ 
+ Average Energy =  -0.7174727    
+ Average magnetization =   3.1379987E-02
+ 
+ Wrting data at temp T =   3.300000      to output files...
+ 
+ Running program for temperature T =    3.200000    
+ 
+ 
+  Beta =   0.3125000    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.200000    
+      1   1  -1  -1  -1   1   1   1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1   1  -1  -1
+      1  -1  -1   1   1  -1  -1  -1   1  -1
+     -1  -1  -1   1   1  -1   1   1   1   1
+      1   1   1  -1   1  -1   1  -1   1   1
+      1  -1   1   1   1  -1   1   1  -1   1
+     -1   1  -1  -1   1  -1  -1  -1  -1   1
+     -1  -1  -1  -1   1   1  -1  -1   1   1
+      1  -1  -1  -1  -1  -1   1  -1  -1  -1
+      1   1  -1  -1  -1  -1   1   1  -1  -1
+ 
+ Average Energy =  -0.7512511    
+ Average magnetization =  -1.2314540E-02
+ 
+ Wrting data at temp T =   3.200000      to output files...
+ 
+ Running program for temperature T =    3.100000    
+ 
+ 
+  Beta =   0.3225807    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.100000    
+     -1  -1  -1  -1   1   1  -1   1   1   1
+      1  -1  -1   1   1   1   1   1   1   1
+      1  -1  -1  -1   1  -1  -1   1   1   1
+     -1  -1  -1  -1  -1  -1  -1   1   1  -1
+      1  -1  -1  -1  -1  -1  -1  -1   1  -1
+     -1   1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1   1   1  -1  -1   1  -1  -1  -1  -1
+     -1  -1   1   1  -1   1   1  -1   1   1
+     -1  -1  -1  -1  -1   1   1  -1   1   1
+     -1  -1  -1  -1  -1  -1   1   1   1   1
+ 
+ Average Energy =  -0.7822424    
+ Average magnetization =  -4.9870007E-02
+ 
+ Wrting data at temp T =   3.100000      to output files...
+ 
+ Running program for temperature T =    3.000000    
+ 
+ 
+  Beta =   0.3333333    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   3.000000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1  -1  -1   1   1
+     -1  -1   1   1   1   1  -1   1   1  -1
+     -1  -1   1   1   1  -1  -1   1  -1  -1
+     -1  -1  -1   1   1  -1  -1  -1  -1  -1
+     -1   1   1   1   1   1   1  -1  -1  -1
+     -1   1   1   1   1  -1  -1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1  -1   1   1   1   1   1   1   1
+ 
+ Average Energy =  -0.8318857    
+ Average magnetization =   5.7253684E-03
+ 
+ Wrting data at temp T =   3.000000      to output files...
+ 
+ Running program for temperature T =    2.900000    
+ 
+ 
+  Beta =   0.3448276    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.900000    
+     -1   1   1   1   1   1  -1   1  -1  -1
+     -1  -1  -1  -1  -1   1  -1   1  -1  -1
+     -1  -1   1   1   1   1  -1  -1  -1  -1
+     -1   1   1   1   1   1   1   1  -1  -1
+     -1  -1   1   1   1  -1   1   1  -1  -1
+      1   1   1   1   1   1  -1   1  -1  -1
+      1   1   1   1   1   1   1   1  -1  -1
+      1   1   1   1   1   1   1  -1  -1  -1
+      1   1  -1  -1  -1  -1  -1  -1  -1  -1
+      1   1   1   1   1  -1  -1  -1  -1  -1
+ 
+ Average Energy =  -0.8800574    
+ Average magnetization =   1.1499813E-02
+ 
+ Wrting data at temp T =   2.900000      to output files...
+ 
+ Running program for temperature T =    2.800000    
+ 
+ 
+  Beta =   0.3571429    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.800000    
+      1  -1  -1  -1  -1   1  -1  -1  -1   1
+      1  -1   1   1   1   1  -1   1   1   1
+      1   1  -1  -1  -1  -1  -1  -1   1   1
+      1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      1  -1  -1   1   1  -1  -1  -1  -1  -1
+      1  -1  -1   1   1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1   1  -1   1  -1   1  -1
+     -1  -1   1  -1   1   1   1  -1  -1   1
+      1  -1  -1  -1   1   1   1  -1  -1  -1
+     -1  -1  -1  -1  -1   1   1  -1  -1  -1
+ 
+ Average Energy =  -0.9149825    
+ Average magnetization =  -6.0464993E-02
+ 
+ Wrting data at temp T =   2.800000      to output files...
+ 
+ Running program for temperature T =    2.700000    
+ 
+ 
+  Beta =   0.3703704    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.700000    
+     -1  -1  -1  -1  -1  -1   1   1   1  -1
+     -1   1  -1  -1  -1  -1   1   1   1  -1
+     -1   1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1   1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1   1  -1  -1  -1  -1   1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1   1   1  -1  -1
+     -1  -1  -1  -1  -1   1   1   1   1  -1
+     -1  -1  -1  -1  -1   1   1   1  -1   1
+     -1  -1  -1  -1  -1   1   1   1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =  -0.9943824    
+ Average magnetization =   1.6764838E-03
+ 
+ Wrting data at temp T =   2.700000      to output files...
+ 
+ Running program for temperature T =    2.600000    
+ 
+ 
+  Beta =   0.3846154    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.600000    
+     -1  -1  -1   1   1  -1  -1  -1  -1  -1
+      1  -1  -1  -1  -1  -1  -1   1  -1  -1
+      1   1  -1  -1  -1  -1  -1  -1  -1  -1
+      1   1  -1  -1  -1  -1  -1  -1   1  -1
+      1   1  -1  -1  -1  -1  -1  -1   1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1   1  -1   1  -1  -1  -1  -1
+      1  -1  -1   1  -1  -1  -1  -1   1   1
+      1  -1   1   1   1  -1  -1  -1  -1   1
+     -1  -1   1   1   1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.090827    
+ Average magnetization =  -9.0608142E-02
+ 
+ Wrting data at temp T =   2.600000      to output files...
+ 
+ Running program for temperature T =    2.500000    
+ 
+ 
+  Beta =   0.4000000    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.500000    
+     -1  -1  -1   1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1   1  -1  -1  -1  -1  -1  -1
+      1   1  -1  -1   1   1   1   1  -1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1  -1  -1   1   1
+      1  -1  -1  -1  -1  -1  -1  -1  -1   1
+      1   1   1  -1  -1  -1  -1  -1  -1   1
+     -1   1   1   1   1   1  -1  -1  -1  -1
+     -1   1   1   1   1   1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.154538    
+ Average magnetization =  -5.3805836E-02
+ 
+ Wrting data at temp T =   2.500000      to output files...
+ 
+ Running program for temperature T =    2.400000    
+ 
+ 
+  Beta =   0.4166667    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.400000    
+      1   1   1   1   1   1   1   1   1   1
+     -1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1  -1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.326561    
+ Average magnetization =   3.0724006E-02
+ 
+ Wrting data at temp T =   2.400000      to output files...
+ 
+ Running program for temperature T =    2.300000    
+ 
+ 
+  Beta =   0.4347826    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.300000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      1  -1  -1  -1  -1  -1  -1  -1   1  -1
+      1  -1  -1  -1  -1   1   1  -1  -1   1
+     -1  -1  -1  -1  -1   1   1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1   1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.426625    
+ Average magnetization =   7.8946568E-02
+ 
+ Wrting data at temp T =   2.300000      to output files...
+ 
+ Running program for temperature T =    2.200000    
+ 
+ 
+  Beta =   0.4545455    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.200000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1  -1   1   1   1   1   1
+      1   1   1   1   1   1  -1   1   1   1
+     -1   1   1   1   1   1  -1  -1  -1   1
+     -1  -1   1   1   1   1   1  -1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.563686    
+ Average magnetization =   0.8142016    
+ 
+ Wrting data at temp T =   2.200000      to output files...
+ 
+ Running program for temperature T =    2.100000    
+ 
+ 
+  Beta =   0.4761905    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.100000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+      1   1  -1  -1  -1   1  -1   1   1  -1
+      1   1  -1  -1  -1   1   1   1  -1  -1
+     -1  -1  -1  -1  -1  -1   1   1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.690132    
+ Average magnetization =  -0.8898476    
+ 
+ Wrting data at temp T =   2.100000      to output files...
+ 
+ Running program for temperature T =    2.000000    
+ 
+ 
+  Beta =   0.5000000    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   2.000000    
+      1  -1   1   1   1   1   1   1   1  -1
+      1   1   1   1   1   1   1   1   1   1
+     -1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1  -1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.760890    
+ Average magnetization =   0.9204705    
+ 
+ Wrting data at temp T =   2.000000      to output files...
+ 
+ Running program for temperature T =    1.900000    
+ 
+ 
+  Beta =   0.5263158    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.900000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1  -1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.809181    
+ Average magnetization =   0.9385771    
+ 
+ Wrting data at temp T =   1.900000      to output files...
+ 
+ Running program for temperature T =    1.800000    
+ 
+ 
+  Beta =   0.5555556    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.800000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+     -1   1   1   1   1   1   1   1  -1   1
+ 
+ Average Energy =   -1.864634    
+ Average magnetization =   0.9582691    
+ 
+ Wrting data at temp T =   1.800000      to output files...
+ 
+ Running program for temperature T =    1.700000    
+ 
+ 
+  Beta =   0.5882353    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.700000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1  -1
+      1   1   1   1   1   1   1   1   1   1
+      1   1  -1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.899825    
+ Average magnetization =   0.9698184    
+ 
+ Wrting data at temp T =   1.700000      to output files...
+ 
+ Running program for temperature T =    1.600000    
+ 
+ 
+  Beta =   0.6250001    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.600000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1  -1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.925273    
+ Average magnetization =   0.9777791    
+ 
+ Wrting data at temp T =   1.600000      to output files...
+ 
+ Running program for temperature T =    1.500000    
+ 
+ 
+  Beta =   0.6666667    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.500000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1   1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.949466    
+ Average magnetization =  -0.9848433    
+ 
+ Wrting data at temp T =   1.500000      to output files...
+ 
+ Running program for temperature T =    1.400000    
+ 
+ 
+  Beta =   0.7142858    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.400000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1  -1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.969704    
+ Average magnetization =   0.9911928    
+ 
+ Wrting data at temp T =   1.400000      to output files...
+ 
+ Running program for temperature T =    1.300000    
+ 
+ 
+  Beta =   0.7692308    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.300000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.981645    
+ Average magnetization =   0.9945528    
+ 
+ Wrting data at temp T =   1.300000      to output files...
+ 
+ Running program for temperature T =    1.200000    
+ 
+ 
+  Beta =   0.8333333    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.200000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.989390    
+ Average magnetization =  -0.9967480    
+ 
+ Wrting data at temp T =   1.200000      to output files...
+ 
+ Running program for temperature T =    1.100000    
+ 
+ 
+  Beta =   0.9090910    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.100000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.993746    
+ Average magnetization =  -0.9980651    
+ 
+ Wrting data at temp T =   1.100000      to output files...
+ 
+ Running program for temperature T =    1.000000    
+ 
+ 
+  Beta =    1.000000    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =   1.000000    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.997712    
+ Average magnetization =   0.9993056    
+ 
+ Wrting data at temp T =   1.000000      to output files...
+ 
+ Running program for temperature T =   0.8999999    
+ 
+ 
+  Beta =    1.111111    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =  0.8999999    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.999038    
+ Average magnetization =   0.9997433    
+ 
+ Wrting data at temp T =  0.8999999      to output files...
+ 
+ Running program for temperature T =   0.8000000    
+ 
+ 
+  Beta =    1.250000    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =  0.8000000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.999754    
+ Average magnetization =  -0.9999272    
+ 
+ Wrting data at temp T =  0.8000000      to output files...
+ 
+ Running program for temperature T =   0.7000000    
+ 
+ 
+  Beta =    1.428571    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =  0.7000000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -1.999943    
+ Average magnetization =  -0.9999871    
+ 
+ Wrting data at temp T =  0.7000000      to output files...
+ 
+ Running program for temperature T =   0.5999999    
+ 
+ 
+  Beta =    1.666667    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =  0.5999999    
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+      1   1   1   1   1   1   1   1   1   1
+ 
+ Average Energy =   -1.999997    
+ Average magnetization =   0.9999985    
+ 
+ Wrting data at temp T =  0.5999999      to output files...
+ 
+ Running program for temperature T =   0.5000000    
+ 
+ 
+  Beta =    2.000000    
+ Starting Monte Carlo Calculation
+ 
+ Ending Monte Carlo loop ....
+ 
+ 
+ Final Spin Configuration  at T =  0.5000000    
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+     -1  -1  -1  -1  -1  -1  -1  -1  -1  -1
+ 
+ Average Energy =   -2.000000    
+ Average magnetization =   -1.000000    
+ 
+ Wrting data at temp T =  0.5000000      to output files...
+ 
+ **** End Program *****
